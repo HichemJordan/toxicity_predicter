@@ -4,7 +4,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.stem import SnowballStemmer, PorterStemmer
 from nltk.corpus import stopwords
 import nltk
-from nltk.corpus import stopwords
+
+nltk.download('stopwords')
 
 from fastapi import FastAPI
 
